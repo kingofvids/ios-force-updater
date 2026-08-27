@@ -1,0 +1,38 @@
+# Build artifacts
+build/
+DerivedData/
+*.o
+*.a
+*.dylib
+
+# Xcode
+.DS_Store
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcworkspace/xcuserdata/
+xcuserdata/
+
+# App
+.app
+*.ipa
+*.dSYM
+
+# Firmware
+*.ipsw
+*.ota
+
+# Logs
+*.log
+build/Logs/
+
+# Dependencies
+Pods/
+Podfile.lock
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

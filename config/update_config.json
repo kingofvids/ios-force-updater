@@ -1,0 +1,51 @@
+{
+  "supported_devices": [
+    {
+      "model": "iPhone7,2",
+      "name": "iPhone 7",
+      "max_ios": 15,
+      "spoof_target": 16,
+      "build": "20A362"
+    },
+    {
+      "model": "iPhone7,1",
+      "name": "iPhone 7 Plus",
+      "max_ios": 15,
+      "spoof_target": 16,
+      "build": "20A362"
+    },
+    {
+      "model": "iPhone8,1",
+      "name": "iPhone 6s",
+      "max_ios": 15,
+      "spoof_target": 16,
+      "build": "20A362"
+    },
+    {
+      "model": "iPhone8,2",
+      "name": "iPhone 6s Plus",
+      "max_ios": 15,
+      "spoof_target": 16,
+      "build": "20A362"
+    }
+  ],
+  "ios16_details": {
+    "version": "16.0",
+    "build": "20A362",
+    "requirements": {
+      "min_storage": "5.9GB",
+      "min_ram": "2GB",
+      "processor": "A9+"
+    }
+  },
+  "spoofing_methods": [
+    "user_agent_injection",
+    "system_version_override",
+    "device_model_spoofing",
+    "capability_mask_manipulation",
+    "firmware_signature_bypass"
+  ],
+  "update_server": "https://mesu.apple.com/assets/iPhone/iOS16/IPSW/",
+  "force_install": true,
+  "bypass_checks": true
+}
